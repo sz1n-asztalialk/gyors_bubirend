@@ -72,7 +72,7 @@ public class Quicksort {
 
             long end = System.currentTimeMillis();
 
-            String outputFile = "rendezett_" + fileName;
+            String outputFile = "rendezett_quick_" + fileName;
 
             BufferedWriter bw = new BufferedWriter(new FileWriter(outputFile));
 

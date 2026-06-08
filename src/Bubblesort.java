@@ -54,7 +54,7 @@ public class Bubblesort {
 
             long end = System.currentTimeMillis();
 
-            String outputFile = "rendezett_" + fileName;
+            String outputFile = "rendezett_bubble_" + fileName;
 
             BufferedWriter bw = new BufferedWriter(new FileWriter(outputFile));
 
