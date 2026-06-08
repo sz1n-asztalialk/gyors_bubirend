@@ -6,18 +6,12 @@ public class App {
 
         Scanner sc = new Scanner(System.in);
 
-        // System.out.print("Add meg a fájl nevét: ");
-        // String fileName = sc.nextLine();
+        System.out.print("Add meg a fájl nevét: ");
+        String fileName = sc.nextLine();
 
         // Quicksort.run(fileName);
 
-        // sc.close();
-
-
-        System.out.print("Add meg a fájl nevét: ");
-        String fileNameBubble = sc.nextLine();
-
-        Bubblesort.run(fileNameBubble);
+        Bubblesort.run(fileName);
 
         sc.close();
     }
